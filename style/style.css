@@ -1,15 +1,12 @@
 :root{
-  /* Violet theme */
-  --blue-1:#6d28d9;   /* header/footer */
-  --blue-2:#5b21b6;   /* nav */
-  --blue-3:#7c3aed;   /* accents (optional) */
-
-  /* neutrals (оставяме ги приятни/четими) */
+  --blue-1:#0c6cb4;
+  --blue-2:#0c74b4;
+  --blue-3:#347abc;
   --text:#1d232a;
   --muted:#5b6672;
   --bg:#ffffff;
-  --card:#f7f5ff;     /* лек виолетов нюанс */
-  --border:#e7defa;   /* леко виолетов бордър */
+  --card:#f6f8fb;
+  --border:#e3e7ee;
 }
 
 *{ box-sizing: border-box; }
@@ -61,11 +58,6 @@ header .container{
 .heading{
   text-align: center;
   margin: 0;
-  color: #fff;
-  text-shadow:
-    0 3px 6px rgba(0, 0, 0, 0.5),
-    0 8px 16px rgba(0, 0, 0, 0.4),
-    0 0 14px rgba(124, 58, 237, 0.55);
 }
 
 /* Translate button */
